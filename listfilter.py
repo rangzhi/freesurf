@@ -2,6 +2,8 @@
 # POX> core.listfilter.add(('IPV4 172.18.0.4', 'ICMP'))
 # POX> core.listfilter.rm(('IPV4 172.18.0.4', 'ICMP'))
 
+# Zhen Cao (zhencao.ietf@gmail.com) and Juergen Fitschen (me@jfitschen.de)  
+
 
 from pox.core import core
 from pox.lib.revent import EventHalt

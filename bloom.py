@@ -2,6 +2,8 @@
 # POX> core.bloom.add(('IPV4 172.18.0.4', 'ICMP'))
 # POX> core.bloom.rm(('IPV4 172.18.0.4', 'ICMP'))
 
+# Juergen Fitschen (me@jfitschen.de)  and Zhen Cao (zhencao.ietf@gmail.com)
+
 
 from pox.core import core
 from pox.lib.revent import EventHalt
